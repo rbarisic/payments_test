@@ -1,0 +1,96 @@
+@import url("input-focus-anim.css");
+@import url("input-stack.css");
+@import url("input-labeled.css");
+
+body {
+	padding: 0;
+	font-family: 'Arial', sans-serif;
+	color: #111;
+	background: #333;
+}
+
+.content {
+	padding: 1em;
+	width: 100%;
+	background: #fff;
+	width: 720px;
+	margin: 0 auto;
+}
+
+.content.head {
+	background: #f2f3f5;
+}
+
+a {
+	color: #2481D8;
+}
+
+form {
+	display: inline-block;
+	padding: 0.5em;
+	border: 1px solid #f2f2f2;
+	background: #f9f9f9;
+	border-radius: 6px;
+	white-space: normal;
+}
+
+label {
+	color: #666;
+	margin-left: 1px;
+}
+
+legend {
+	color: #bbb;
+}
+
+fieldset {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+	border: 1px solid #eee;
+	border-radius: 6px;
+}
+
+input {
+	border: 1px solid #eee;
+	background: #fff;
+	border-radius: 4px;
+
+	padding: 0.5em;
+}
+
+input[type="submit"], input[type="button"] {
+	color: #fff;
+	background: #2481D8;
+	border: none;
+	border-bottom: 2px solid #1B63A5;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+	background: linear-gradient(#579BD8, #2481D8);
+	border: none;
+	border-bottom: 2px solid #1B63A5;
+	outline: none;
+}
+
+input[type="submit"]:active, input[type="button"]:active {
+	background: #1B63A5;
+	border: none;
+	border-top: 2px solid #1B63A5;
+	outline: none;
+}
+
+input[type="submit"]:focus, input[type="button"]:focus {
+	background: #1B63A5;
+	border: none;
+	border-top: 2px solid #1B63A5;
+	outline: none;
+}
+
+input:focus {
+	border: 1px solid #9CBFDE;
+}
+
+input::-moz-focus-inner { 
+  border: 0; 
+}

@@ -1,0 +1,13 @@
+.stack input {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	display: block;
+}
+
+.stack input[type="checkbox"] {
+	display: inline-block;
+}
+
+.stack label {
+	display: block;
+}

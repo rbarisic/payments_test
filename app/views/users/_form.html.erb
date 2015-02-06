@@ -1,0 +1,21 @@
+<% if @user.errors.any? %>
+<div class="t-errors">
+	The following errors prevent you from saving:
+	<ul>
+		<% @user.errors.full_messages.each do |message| %>
+			<li><%= message %></li>
+		<% end %>
+	</ul>
+</div>
+<% end %>
+
+<fieldset class="stack">
+	<legend>Register your Account</legend>
+	<div class="input-badge input-badge-username">
+		<%= f.text_field :nickname, placeholder: :nickname %>
+	</div>
+	<div class="input-badge input-badge-password">
+		<%= f.password_field :password, placeholder: :password %>
+	</div>
+	<%= f.submit %>
+</fieldset>
