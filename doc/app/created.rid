@@ -1,0 +1,14 @@
+Fri, 06 Feb 2015 16:29:46 +0100
+README.rdoc	Fri, 06 Feb 2015 15:13:55 +0100
+app/controllers/application_controller.rb	Fri, 06 Feb 2015 15:13:55 +0100
+app/controllers/payments_controller.rb	Fri, 06 Feb 2015 15:16:42 +0100
+app/controllers/session_controller.rb	Fri, 06 Feb 2015 16:20:40 +0100
+app/controllers/static_pages_controller.rb	Fri, 06 Feb 2015 15:17:17 +0100
+app/controllers/users_controller.rb	Fri, 06 Feb 2015 15:52:23 +0100
+app/helpers/application_helper.rb	Fri, 06 Feb 2015 15:13:55 +0100
+app/helpers/payments_helper.rb	Fri, 06 Feb 2015 15:16:42 +0100
+app/helpers/session_helper.rb	Fri, 06 Feb 2015 16:19:30 +0100
+app/helpers/static_pages_helper.rb	Fri, 06 Feb 2015 15:17:17 +0100
+app/helpers/users_helper.rb	Fri, 06 Feb 2015 15:31:11 +0100
+app/models/session.rb	Fri, 06 Feb 2015 16:22:25 +0100
+app/models/user.rb	Fri, 06 Feb 2015 16:20:55 +0100
